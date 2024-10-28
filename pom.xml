@@ -104,9 +104,6 @@
             <version>5.2.0</version>
             <scope>test</scope>
         </dependency>
-
-
-
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit5</artifactId>
@@ -133,5 +130,13 @@
             <artifactId>allure-assertj</artifactId>
             <version>2.19.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite-engine -->
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite-engine</artifactId>
+            <version>1.11.1</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 </project>

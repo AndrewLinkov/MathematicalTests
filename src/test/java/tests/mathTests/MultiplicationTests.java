@@ -1,7 +1,7 @@
 package tests.mathTests;
 
-import io.qameta.allure.Description;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +13,7 @@ public class MultiplicationTests {
 
     @Test
     @Tag(SMOKE)
-    @Description("Результат умножения 1")
+    @DisplayName("Результат умножения 1")
     public void multiplication1() {
         int a = 1;
         int b = 1;
@@ -24,7 +24,7 @@ public class MultiplicationTests {
     }
 
     @Test
-    @Description("Результат умножения 2")
+    @DisplayName("Результат умножения 2")
     public void multiplication2() {
         int a = 1;
         int b = 2;
@@ -35,7 +35,7 @@ public class MultiplicationTests {
     }
 
     @Test
-    @Description("Результат умножения 3")
+    @DisplayName("Результат умножения 3")
     public void multiplication3() {
         int a = 1;
         int b = 3;
@@ -46,7 +46,7 @@ public class MultiplicationTests {
     }
 
     @Test
-    @Description("Результат умножения 4")
+    @DisplayName("Результат умножения 4")
     public void multiplication4() {
         int a = 1;
         int b = 4;
@@ -57,7 +57,7 @@ public class MultiplicationTests {
     }
 
     @Test
-    @Description("Результат умножения 5")
+    @DisplayName("Результат умножения 5")
     public void multiplication5() {
         int a = 1;
         int b = 5;

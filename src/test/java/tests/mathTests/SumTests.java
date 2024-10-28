@@ -1,12 +1,11 @@
 package tests.mathTests;
 
-import io.qameta.allure.Description;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static tests.interfaces.INameTags.*;
-
 
 @Tag(REGRESS)
 @Tag(SUM)
@@ -14,7 +13,7 @@ public class SumTests {
 
     @Test
     @Tag(SMOKE)
-    @Description("Результат суммы 1")
+    @DisplayName("Результат суммы 1")
     public void sum1() {
         int a = 1;
         int b = 0;
@@ -25,7 +24,7 @@ public class SumTests {
     }
 
     @Test
-    @Description("Результат суммы 2")
+    @DisplayName("Результат суммы 2")
     public void sum2() {
         int a = 1;
         int b = 1;
@@ -36,7 +35,7 @@ public class SumTests {
     }
 
     @Test
-    @Description("Результат суммы 3")
+    @DisplayName("Результат суммы 3")
     public void sum3() {
         int a = 2;
         int b = 1;
@@ -47,7 +46,7 @@ public class SumTests {
     }
 
     @Test
-    @Description("Результат суммы 4")
+    @DisplayName("Результат суммы 4")
     public void sum4() {
         int a = 2;
         int b = 2;
@@ -58,7 +57,7 @@ public class SumTests {
     }
 
     @Test
-    @Description("Результат суммы 5")
+    @DisplayName("Результат суммы 5")
     public void sum5() {
         int a = 2;
         int b = 3;
